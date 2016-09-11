@@ -1,3 +1,5 @@
+# Testing t3kit with composer
+
 #t3kit
 [![t3kit](https://img.shields.io/badge/t3kit-7.8.0-green.svg?style=flat-square)](https://github.com/t3kit/t3kit)
 [![TYPO3](https://img.shields.io/badge/TYPO3-7.6.9-orange.svg?style=flat-square)](https://typo3.org/)
