@@ -9,6 +9,7 @@ index.php
 typo3
 typo3conf/ext/*
 vendor
+typo3_src
 
 fileadmin/*
 !fileadmin/example_content/
