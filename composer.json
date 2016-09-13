@@ -7,23 +7,6 @@
     {
       "type":"package",
       "package":{
-        "name":"pixelant/pxa-newsletter-subscription",
-        "type": "typo3-cms-extension",
-        "version":"3.1.1",
-        "dist":{
-          "type":"zip",
-          "url":"https://bitbucket.org/pixelant/pxa_newsletter_subscription/get/3.1.1.zip"
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "Pixelant\\PxaNewsletterSubscription\\": "Classes/"
-        }
-      }
-    },
-    {
-      "type":"package",
-      "package":{
         "name":"pixelant/pxa-form-enhancement",
         "type": "typo3-cms-extension",
         "version":"1.0.1",
