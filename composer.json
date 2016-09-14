@@ -33,7 +33,6 @@
     "typo3-ter/realurl-404-multilingual": "1.0.7",
     "typo3-ter/seo-basics": "0.9.2",
     "typo3-ter/solr": "5.1.0",
-    "pixelant/pxa-newsletter-subscription":"3.1.1",
     "pixelant/pxa-form-enhancement":"1.0.1"
   },
   "extra": {
