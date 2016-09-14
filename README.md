@@ -3,7 +3,13 @@
 
 ### Getting Started:
 
-- `git clone git@github.com:t3kit/t3kit_vagrant.git`
+- `git clone https://github.com/t3kit/t3kit_composer.git`
+- `composer install`
+
+
+### Or if you want to install t3kit with predefined database using [Vagrant](https://github.com/t3kit/t3kit_vagrant):
+
+- `git clone https://github.com/t3kit/t3kit_vagrant.git`
 - `cd t3kit_vagrant`
 - `./initWithComposer.sh`
 - `vagrant up`
