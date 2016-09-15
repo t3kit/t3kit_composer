@@ -4,6 +4,7 @@
 ### Getting Started:
 
 - `git clone https://github.com/t3kit/t3kit_composer.git`
+- `cd t3kit_composer`
 - `composer install`
 
 
