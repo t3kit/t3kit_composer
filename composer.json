@@ -24,7 +24,7 @@
     }
   ],
   "require": {
-    "typo3/cms": "7.6.9",
+    "typo3/cms": "^7.6",
     "typo3-ter/theme-t3kit": "1.7.0",
     "typo3-ter/theme-t3kit-bluemountain": "0.4.0",
     "georgringer/news": "4.3.0",
