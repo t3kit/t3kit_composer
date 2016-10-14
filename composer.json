@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "php": ">=5.5.0, <=7.0.0",
     "typo3/cms": "^7.6",
     "typo3-ter/theme-t3kit": "1.7.0",
     "typo3-ter/theme-t3kit-bluemountain": "0.4.0",
