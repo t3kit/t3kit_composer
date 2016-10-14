@@ -5,22 +5,8 @@
       "url": "https://composer.typo3.org/"
     },
     {
-      "type":"package",
-      "package":{
-        "name":"pixelant/pxa-form-enhancement",
-        "type": "typo3-cms-extension",
-        "version":"1.0.1",
-        "source":{
-          "type":"git",
-          "url":"git@github.com:pixelant/pxa_form_enhancement.git",
-          "reference":"master"
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "Pixelant\\PxaFormEnhancement\\": "Classes/"
-        }
-      }
+      "type": "git",
+      "url": "https://github.com/pixelant/pxa_form_enhancement"
     }
   ],
   "require": {
@@ -33,7 +19,7 @@
     "typo3-ter/realurl-404-multilingual": "1.0.7",
     "typo3-ter/seo-basics": "0.9.2",
     "typo3-ter/solr": "5.1.0",
-    "pixelant/pxa-form-enhancement":"1.0.1"
+    "pixelant/pxa-form-enhancement": "1.0.1"
   },
   "extra": {
     "typo3/cms": {
