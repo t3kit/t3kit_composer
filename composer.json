@@ -22,6 +22,9 @@
     "typo3-ter/solr": "5.1.0",
     "pixelant/pxa-form-enhancement": "1.0.1"
   },
+  "require-dev": {
+    "lauri/dockert3kit": "~2.2.0"
+  },
   "extra": {
     "typo3/cms": {
       "cms-package-dir": "{$vendor-dir}/typo3/cms",

@@ -19,7 +19,17 @@ switch (\TYPO3\CMS\Core\Utility\GeneralUtility::getApplicationContext()) {
 		// Will then appear in http://localhost:1080/ (mailcatcher) and http://localhost:28778/ (logio)
 		// Page will load noticably slow when systemLog to "mail" is enabled and a lot of errors occurs.
 		// $GLOBALS['TYPO3_CONF_VARS']['SYS']['systemLog'] = 'mail,dummy@t3kit.com;error_log';
-
+	break;
+	case 'Development/Docker':
+		// SetEnv TYPO3_CONTEXT Development
+		$GLOBALS['TYPO3_CONF_VARS']['DB']['host'] = 'db';
+		$GLOBALS['TYPO3_CONF_VARS']['BE']['debug'] = TRUE;
+		$GLOBALS['TYPO3_CONF_VARS']['FE']['debug'] = FALSE;
+		$GLOBALS['TYPO3_CONF_VARS']['SYS']['displayErrors'] = 1;
+		$GLOBALS['TYPO3_CONF_VARS']['SYS']['devIPmask'] = '*';
+		$GLOBALS['TYPO3_CONF_VARS']['SYS']['sitename'] = 'Docker :: t3kit :: TYPO3';
+		$GLOBALS['TYPO3_CONF_VARS']['SYS']['sqlDebug'] = 1;
+		$GLOBALS['TYPO3_CONF_VARS']['SYS']['clearCacheSystem'] = TRUE;
 	break;
 	case 'Development':
 		// SetEnv TYPO3_CONTEXT Development
