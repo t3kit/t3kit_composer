@@ -7,8 +7,21 @@
     {
       "type": "git",
       "url": "https://github.com/pixelant/pxa_form_enhancement"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/t3kit/theme_t3kit"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/t3kit/theme_t3kit_bluemountain"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/t3kit/t3kit_extension_tools"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.5, <7.1",
     "typo3/cms": "^7.6",
@@ -23,7 +36,9 @@
     "pixelant/pxa-form-enhancement": "1.0.1"
   },
   "require-dev": {
-    "lauri/dockert3kit": "~2.2.0"
+    "lauri/dockert3kit": "~2.2.0",
+    "t3kit/theme-t3kit": "dev-master",
+    "t3kit/theme-t3kit-bluemountain": "dev-master"
   },
   "extra": {
     "typo3/cms": {
