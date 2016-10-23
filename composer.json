@@ -10,6 +10,10 @@
     },
     {
       "type": "git",
+      "url": "https://github.com/t3kit/t3kit_docker"
+    },
+    {
+      "type": "git",
       "url": "https://github.com/t3kit/theme_t3kit"
     },
     {
@@ -19,9 +23,12 @@
     {
       "type": "git",
       "url": "https://github.com/t3kit/t3kit_extension_tools"
+    },
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/pixelant/pxa_newsletter_subscription"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=5.5, <7.1",
     "typo3/cms": "^7.6",
@@ -36,9 +43,12 @@
     "pixelant/pxa-form-enhancement": "1.0.1"
   },
   "require-dev": {
-    "lauri/dockert3kit": "~2.2.0",
+    "t3kit/t3kit-docker": "dev-master",
     "t3kit/theme-t3kit": "dev-master",
-    "t3kit/theme-t3kit-bluemountain": "dev-master"
+    "t3kit/theme-t3kit-bluemountain": "dev-master",
+    "t3kit/t3kit-extension-tools": "dev-master",
+    "pixelant/pxa-form-enhancement": "^1.0",
+    "pixelant/pxa-newsletter-subscription": "dev-master"
   },
   "extra": {
     "typo3/cms": {
