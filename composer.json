@@ -40,7 +40,8 @@
     "typo3-ter/realurl-404-multilingual": "1.0.7",
     "typo3-ter/seo-basics": "0.9.2",
     "typo3-ter/solr": "5.1.0",
-    "pixelant/pxa-form-enhancement": "1.0.1"
+    "pixelant/pxa-form-enhancement": "1.0.1",
+    "typo3-ter/static-info-tables": "^6.3"
   },
   "require-dev": {
     "t3kit/t3kit-docker": "dev-master",
