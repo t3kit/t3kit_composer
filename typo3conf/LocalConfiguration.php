@@ -108,7 +108,7 @@ return [
         'isInitialInstallationInProgress' => false,
         'sitename' => 'TYPO3 T3kit',
         'sqlDebug' => 0,
-        'systemLocale' => 'sv_SE.UTF-8',
+        'systemLocale' => 'en_US.utf8',
         'systemLogLevel' => 2,
         't3lib_cs_convMethod' => 'mbstring',
         't3lib_cs_utils' => 'mbstring',
