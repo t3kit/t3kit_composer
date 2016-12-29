@@ -106,7 +106,7 @@ return [
         'exceptionalErrors' => 28674,
         'isInitialDatabaseImportDone' => true,
         'isInitialInstallationInProgress' => false,
-        'sitename' => 'TYPO3 T3kit',
+        'sitename' => 'TYPO3 t3kit',
         'sqlDebug' => 0,
         'systemLocale' => 'en_US.utf8',
         'systemLogLevel' => 2,
