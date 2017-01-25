@@ -31,7 +31,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=5.5, <7.1",
+    "php": ">=5.5, <7.2",
     "typo3/cms": "^7.6",
     "typo3-ter/theme-t3kit": "1.9.0",
     "typo3-ter/theme-t3kit-bluemountain": "1.0.0",
