@@ -253,7 +253,7 @@ return [
             'suggestions' => [],
         ],
         'dyncss' => [
-            'composerName' => 'dyncss',
+            'composerName' => 'kaystrobach/dyncss',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/dyncss/',
             'suggestions' => [],
@@ -265,7 +265,7 @@ return [
             'suggestions' => [],
         ],
         'static_info_tables' => [
-            'composerName' => 'sjbr/static_info_tables',
+            'composerName' => 'sjbr/static-info-tables',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/static_info_tables/',
             'suggestions' => [],
@@ -295,7 +295,7 @@ return [
             'suggestions' => [],
         ],
         'theme_t3kit_bluemountain' => [
-            'composerName' => 'theme_t3kit_bluemountain',
+            'composerName' => 't3kit/theme-t3kit-bluemountain',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/theme_t3kit_bluemountain/',
             'suggestions' => [],
@@ -304,20 +304,12 @@ return [
             'composerName' => 'dmitryd/typo3-realurl',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/realurl/',
-            'suggestions' => [
-                'static_info_tables',
-            ],
+            'suggestions' => [],
         ],
         'realurl_404_multilingual' => [
             'composerName' => 'realurl_404_multilingual',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/realurl_404_multilingual/',
-            'suggestions' => [],
-        ],
-        'seo_basics' => [
-            'composerName' => 'b13/seo_basics',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/seo_basics/',
             'suggestions' => [],
         ],
         'go_maps_ext' => [
@@ -333,15 +325,21 @@ return [
             'suggestions' => [],
         ],
         'pxa_form_enhancement' => [
-            'composerName' => 'pxa_form_enhancement',
+            'composerName' => 'pixelant/pxa-form-enhancement',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/pxa_form_enhancement/',
             'suggestions' => [],
         ],
         'pxa_newsletter_subscription' => [
-            'composerName' => 'pxa_newsletter_subscription',
+            'composerName' => 'pixelant/pxa-newsletter-subscription',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/pxa_newsletter_subscription/',
+            'suggestions' => [],
+        ],
+        'seo_basics' => [
+            'composerName' => 'b13/seo_basics',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/seo_basics/',
             'suggestions' => [],
         ],
         'solr' => [
@@ -350,10 +348,10 @@ return [
             'packagePath' => 'typo3conf/ext/solr/',
             'suggestions' => [],
         ],
-        'yaml_parser' => [
-            'composerName' => 'typo3-ter/yaml-parser',
+        'typo3_console' => [
+            'composerName' => 'helhum/typo3-console',
             'state' => 'active',
-            'packagePath' => 'typo3conf/ext/yaml_parser/',
+            'packagePath' => 'typo3conf/ext/typo3_console/',
             'suggestions' => [],
         ],
         'adodb' => [
