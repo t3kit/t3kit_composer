@@ -43,7 +43,7 @@
     "typo3-ter/solr": "5.1.0",
     "pixelant/pxa-form-enhancement": "1.0.1",
     "typo3-ter/static-info-tables": "^6.3",
-    "typo3-ter/typo3-console": "4.1.2"
+    "helhum/typo3-console": "4.1.2"
   },
   "require-dev": {
     "t3kit/theme-t3kit": "dev-master",
