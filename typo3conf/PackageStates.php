@@ -318,6 +318,12 @@ return [
             'packagePath' => 'typo3conf/ext/go_maps_ext/',
             'suggestions' => [],
         ],
+        'guide' => [
+            'composerName' => 'typo3-ter/guide',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/guide/',
+            'suggestions' => [],
+        ],
         'news' => [
             'composerName' => 'georgringer/news',
             'state' => 'active',
@@ -349,10 +355,11 @@ return [
             'suggestions' => [],
         ],
         'typo3_console' => [
-            'composerName' => 'helhum/typo3-console',
+            'composerName' => 'typo3_console',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/typo3_console/',
-	    ],
+            'suggestions' => [],
+        ],
         'url_forwarding' => [
             'composerName' => 'patrickbroens/url-forwarding',
             'state' => 'active',
