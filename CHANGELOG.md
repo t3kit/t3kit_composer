@@ -1,4 +1,9 @@
 
+#### v0.2.1 `February 21, 2017`
+- **[FIX]** set correct dependencies for t3kit-extension-tools fix #22 ([9cbdcdd](https://github.com/t3kit/t3kit_composer/commit/9cbdcdd))
+
+***
+
 #### v0.2.0 `February 20, 2017`
 - **[TASK]** Change origin for pxa_newsletter_subscription to be Github (#20) ([c8989f5](https://github.com/t3kit/t3kit_composer/commit/c8989f5))
 - **[TASK]** Change origin for pxa_newsletter_subscription to be Github ([a75fe9e](https://github.com/t3kit/t3kit_composer/commit/a75fe9e))
