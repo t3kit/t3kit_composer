@@ -1,4 +1,10 @@
 
+#### v0.2.2 `April 11, 2017`
+- **[TASK]** use theme_t3kit v1.10.1 instead of master branch (t3kit 7) ([ba000a9](https://github.com/t3kit/t3kit_composer/commit/ba000a9))
+- **[BUGFIX]** Update news to secure version 5.3.3 (Add caseinsensitive security check for overwriteDemandObject) ([3d08311](https://github.com/t3kit/t3kit_composer/commit/3d08311))
+
+***
+
 #### v0.2.1 `February 21, 2017`
 - **[FIX]** set correct dependencies for t3kit-extension-tools fix #22 ([9cbdcdd](https://github.com/t3kit/t3kit_composer/commit/9cbdcdd))
 
